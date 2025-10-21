@@ -6,6 +6,7 @@ struct AppMain: App {
 
 	var body: some Scene {
 		Settings {}
+//			.defaultLaunchBehavior(.suppressed)
 	}
 }
 

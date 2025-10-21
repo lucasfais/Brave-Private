@@ -3,20 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37829062EA773CB007817A0 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = E37829052EA773CB007817A0 /* AppIcon.icon */; };
 		E3F868D528B115BB00CD969D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F868D428B115BB00CD969D /* App.swift */; };
 		E3F868D928B115BC00CD969D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F868D828B115BC00CD969D /* Assets.xcassets */; };
 		E3F868E528B11F1D00CD969D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F868E428B11F1D00CD969D /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E37829052EA773CB007817A0 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		E3F868D128B115BB00CD969D /* Safari Private.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Private.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F868D428B115BB00CD969D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E3F868D828B115BC00CD969D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3F868DD28B115BC00CD969D /* Safari_Private.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Private.entitlements; sourceTree = "<group>"; };
 		E3F868E328B1162200CD969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Safari Private/Info.plist"; sourceTree = SOURCE_ROOT; };
 		E3F868E428B11F1D00CD969D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -24,10 +25,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		E3F868CE28B115BB00CD969D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -54,8 +53,8 @@
 				E3F868D428B115BB00CD969D /* App.swift */,
 				E3F868E428B11F1D00CD969D /* Utilities.swift */,
 				E3F868D828B115BC00CD969D /* Assets.xcassets */,
+				E37829052EA773CB007817A0 /* AppIcon.icon */,
 				E3F868E328B1162200CD969D /* Info.plist */,
-				E3F868DD28B115BC00CD969D /* Safari_Private.entitlements */,
 			);
 			path = "Safari Private";
 			sourceTree = "<group>";
@@ -73,8 +72,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "Safari Private";
 			productName = "Safari Private";
 			productReference = E3F868D128B115BB00CD969D /* Safari Private.app */;
@@ -88,7 +85,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					E3F868D028B115BB00CD969D = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -96,7 +93,6 @@
 				};
 			};
 			buildConfigurationList = E3F868CC28B115BB00CD969D /* Build configuration list for PBXProject "Safari Private" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -104,6 +100,8 @@
 				Base,
 			);
 			mainGroup = E3F868C828B115BB00CD969D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = E3F868D228B115BB00CD969D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -116,28 +114,25 @@
 /* Begin PBXResourcesBuildPhase section */
 		E3F868CF28B115BB00CD969D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				E3F868D928B115BC00CD969D /* Assets.xcassets in Resources */,
+				E37829062EA773CB007817A0 /* AppIcon.icon in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3F868CD28B115BB00CD969D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				E3F868E528B11F1D00CD969D /* Utilities.swift in Sources */,
 				E3F868D528B115BB00CD969D /* App.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E3F868DE28B115BC00CD969D /* Debug */ = {
+		E3F868DE28B115BC00CD969D /* Debug configuration for PBXProject "Safari Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,6 +168,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YG56YK5RN5;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -195,12 +191,13 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		E3F868DF28B115BC00CD969D /* Release */ = {
+		E3F868DF28B115BC00CD969D /* Release configuration for PBXProject "Safari Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,6 +233,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YG56YK5RN5;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -251,28 +249,36 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		E3F868E128B115BC00CD969D /* Debug */ = {
+		E3F868E128B115BC00CD969D /* Debug configuration for PBXNativeTarget "Safari Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Safari Private/Safari_Private.entitlements";
+				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = YG56YK5RN5;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Safari Private/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = tg;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Required to open a private window in Safari.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -281,28 +287,41 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sindresorhus.Safari-Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		E3F868E228B115BC00CD969D /* Release */ = {
+		E3F868E228B115BC00CD969D /* Release configuration for PBXNativeTarget "Safari Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Safari Private/Safari_Private.entitlements";
+				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = YG56YK5RN5;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Safari Private/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = tg;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Required to open a private window in Safari.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -311,6 +330,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sindresorhus.Safari-Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -322,19 +347,17 @@
 		E3F868CC28B115BB00CD969D /* Build configuration list for PBXProject "Safari Private" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3F868DE28B115BC00CD969D /* Debug */,
-				E3F868DF28B115BC00CD969D /* Release */,
+				E3F868DE28B115BC00CD969D /* Debug configuration for PBXProject "Safari Private" */,
+				E3F868DF28B115BC00CD969D /* Release configuration for PBXProject "Safari Private" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		E3F868E028B115BC00CD969D /* Build configuration list for PBXNativeTarget "Safari Private" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3F868E128B115BC00CD969D /* Debug */,
-				E3F868E228B115BC00CD969D /* Release */,
+				E3F868E128B115BC00CD969D /* Debug configuration for PBXNativeTarget "Safari Private" */,
+				E3F868E228B115BC00CD969D /* Release configuration for PBXNativeTarget "Safari Private" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
