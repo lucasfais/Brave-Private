@@ -1,3 +1,5 @@
+➡️ Inspired and based on https://github.com/sindresorhus/Safari-Private
+
 # Brave Private
 
 > Open the given URL in a private Brave window
