@@ -15,10 +15,10 @@
 
 /* Begin PBXFileReference section */
 		E37829052EA773CB007817A0 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
-		E3F868D128B115BB00CD969D /* Safari Private.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Private.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F868D128B115BB00CD969D /* Brave Private.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brave Private.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F868D428B115BB00CD969D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E3F868D828B115BC00CD969D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3F868E328B1162200CD969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Safari Private/Info.plist"; sourceTree = SOURCE_ROOT; };
+		E3F868E328B1162200CD969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Brave Private/Info.plist"; sourceTree = SOURCE_ROOT; };
 		E3F868E428B11F1D00CD969D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,7 +34,7 @@
 		E3F868C828B115BB00CD969D = {
 			isa = PBXGroup;
 			children = (
-				E3F868D328B115BB00CD969D /* Safari Private */,
+				E3F868D328B115BB00CD969D /* Brave Private */,
 				E3F868D228B115BB00CD969D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,12 +42,12 @@
 		E3F868D228B115BB00CD969D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3F868D128B115BB00CD969D /* Safari Private.app */,
+				E3F868D128B115BB00CD969D /* Brave Private.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3F868D328B115BB00CD969D /* Safari Private */ = {
+		E3F868D328B115BB00CD969D /* Brave Private */ = {
 			isa = PBXGroup;
 			children = (
 				E3F868D428B115BB00CD969D /* App.swift */,
@@ -56,15 +56,15 @@
 				E37829052EA773CB007817A0 /* AppIcon.icon */,
 				E3F868E328B1162200CD969D /* Info.plist */,
 			);
-			path = "Safari Private";
+			path = "Brave Private";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3F868D028B115BB00CD969D /* Safari Private */ = {
+		E3F868D028B115BB00CD969D /* Brave Private */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3F868E028B115BC00CD969D /* Build configuration list for PBXNativeTarget "Safari Private" */;
+			buildConfigurationList = E3F868E028B115BC00CD969D /* Build configuration list for PBXNativeTarget "Brave Private" */;
 			buildPhases = (
 				E3F868CD28B115BB00CD969D /* Sources */,
 				E3F868CE28B115BB00CD969D /* Frameworks */,
@@ -72,9 +72,9 @@
 			);
 			buildRules = (
 			);
-			name = "Safari Private";
-			productName = "Safari Private";
-			productReference = E3F868D128B115BB00CD969D /* Safari Private.app */;
+			name = "Brave Private";
+			productName = "Brave Private";
+			productReference = E3F868D128B115BB00CD969D /* Brave Private.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3F868CC28B115BB00CD969D /* Build configuration list for PBXProject "Safari Private" */;
+			buildConfigurationList = E3F868CC28B115BB00CD969D /* Build configuration list for PBXProject "Brave Private" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3F868D028B115BB00CD969D /* Safari Private */,
+				E3F868D028B115BB00CD969D /* Brave Private */,
 			);
 		};
 /* End PBXProject section */
@@ -132,7 +132,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E3F868DE28B115BC00CD969D /* Debug configuration for PBXProject "Safari Private" */ = {
+		E3F868DE28B115BC00CD969D /* Debug configuration for PBXProject "Brave Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -168,7 +168,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = YG56YK5RN5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -197,7 +197,7 @@
 			};
 			name = Debug;
 		};
-		E3F868DF28B115BC00CD969D /* Release configuration for PBXProject "Safari Private" */ = {
+		E3F868DF28B115BC00CD969D /* Release configuration for PBXProject "Brave Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +233,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = YG56YK5RN5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -255,16 +255,16 @@
 			};
 			name = Release;
 		};
-		E3F868E128B115BC00CD969D /* Debug configuration for PBXNativeTarget "Safari Private" */ = {
+		E3F868E128B115BC00CD969D /* Debug configuration for PBXNativeTarget "Brave Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -275,16 +275,15 @@
 				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Safari Private/Info.plist";
+				INFOPLIST_FILE = "Brave Private/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Required to open a private window in Safari.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sindresorhus.Safari-Private";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucasfais.Brave-Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
@@ -298,16 +297,16 @@
 			};
 			name = Debug;
 		};
-		E3F868E228B115BC00CD969D /* Release configuration for PBXNativeTarget "Safari Private" */ = {
+		E3F868E228B115BC00CD969D /* Release configuration for PBXNativeTarget "Brave Private" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -318,16 +317,15 @@
 				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
 				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Safari Private/Info.plist";
+				INFOPLIST_FILE = "Brave Private/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
-				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Required to open a private window in Safari.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sindresorhus.Safari-Private";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lucasfais.Brave-Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
@@ -344,19 +342,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3F868CC28B115BB00CD969D /* Build configuration list for PBXProject "Safari Private" */ = {
+		E3F868CC28B115BB00CD969D /* Build configuration list for PBXProject "Brave Private" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3F868DE28B115BC00CD969D /* Debug configuration for PBXProject "Safari Private" */,
-				E3F868DF28B115BC00CD969D /* Release configuration for PBXProject "Safari Private" */,
+				E3F868DE28B115BC00CD969D /* Debug configuration for PBXProject "Brave Private" */,
+				E3F868DF28B115BC00CD969D /* Release configuration for PBXProject "Brave Private" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		E3F868E028B115BC00CD969D /* Build configuration list for PBXNativeTarget "Safari Private" */ = {
+		E3F868E028B115BC00CD969D /* Build configuration list for PBXNativeTarget "Brave Private" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3F868E128B115BC00CD969D /* Debug configuration for PBXNativeTarget "Safari Private" */,
-				E3F868E228B115BC00CD969D /* Release configuration for PBXNativeTarget "Safari Private" */,
+				E3F868E128B115BC00CD969D /* Debug configuration for PBXNativeTarget "Brave Private" */,
+				E3F868E228B115BC00CD969D /* Release configuration for PBXNativeTarget "Brave Private" */,
 			);
 			defaultConfigurationName = Release;
 		};

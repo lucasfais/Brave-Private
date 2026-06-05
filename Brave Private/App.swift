@@ -6,28 +6,34 @@ struct AppMain: App {
 
 	var body: some Scene {
 		Settings {}
-//			.defaultLaunchBehavior(.suppressed)
 	}
 }
 
 private final class AppDelegate: NSObject, NSApplicationDelegate {
 	private var task: Task<Void, Never>?
+	private var didOpenURLs = false
 
 	func applicationDidFinishLaunching(_ notification: Notification) {
-		_ = Permissions.Accessibility.requestAccess()
 		scheduleQuit()
+
+		// When launched without any URL, still open an empty private window,
+		// like pressing Cmd-Shift-N in Brave. Wait briefly first in case the
+		// system is about to deliver URLs to open.
+		Task {
+			try? await Task.sleep(for: .milliseconds(300))
+
+			guard !didOpenURLs else {
+				return
+			}
+
+			openPrivateBraveWindow(with: [])
+			scheduleQuit()
+		}
 	}
 
 	func application(_ application: NSApplication, open urls: [URL]) {
-		guard Permissions.Accessibility.requestAccess() else {
-			let alert = NSAlert()
-			alert.messageText = "You need to allow Accessibility and Automation access in “System Settings › Privacy & Security”."
-			alert.runModal()
-			NSApp.terminate(nil)
-			return
-		}
-
-		openPrivateSafariWindow(with: urls)
+		didOpenURLs = true
+		openPrivateBraveWindow(with: urls)
 		scheduleQuit()
 	}
 
